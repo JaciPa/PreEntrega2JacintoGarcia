@@ -1,0 +1,26 @@
+/*FOOTER*/
+.footer {
+	padding: 100px 0;
+	background-color: #191a1f;
+	.footer-content {
+		display: flex;
+		justify-content: space-between;
+		.link {
+			h3 {
+				font-size: 17px;
+				color: #FFFFFF;
+				margin-bottom: 10px;
+				text-transform: uppercase;
+			}
+			a {
+				font-size: 17px;
+				color: #d4d4d4;
+				display: block;
+				margin-bottom: 10px;
+				&:hover {
+					color: #e6b01d;
+				}
+			}
+		}
+	}
+}

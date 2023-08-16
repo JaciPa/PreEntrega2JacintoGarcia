@@ -1,0 +1,69 @@
+@import "header";
+@import "planes";
+@import "contacto";
+@import "footer";
+@import "queries";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+/*GENERAL*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+img {
+	max-width: 100%;
+}
+::placeholder {
+	color: #898989;
+}
+p {
+	font-size: 17px;
+	color: #d4d4d4;
+	margin-bottom: 35px;
+}
+.btn-1 {
+	display: inline-block;
+	padding: 11px 35px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	background: linear-gradient(
+        90deg,
+        rgb(245, 171, 33) 0%,
+        rgb(254, 184, 32) 100%
+    );
+}
+span {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #e6b01d;
+}
+h2 {
+	font-size: 35px;
+	color: #FFFFFF;
+	margin: 15px 0;
+	line-height: 1;
+}
+hr {
+	border: 1px solid #e6b01d;
+	width: 36%;
+	margin-bottom: 30px;
+}
+
+input {
+    display: block;
+    padding: 17px;
+    background-color: transparent;
+    border: 1px solid #979797;
+    width: 350px;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,15 @@
+/*CONTACTO*/
+.contact {
+	padding: 100px 0;
+	background: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    ),
+    url(../img/contacto.jpeg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	.contact-content {
+		text-align: center;
+	}
+}

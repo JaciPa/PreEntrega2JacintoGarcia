@@ -1,0 +1,101 @@
+@media (max-width :991px) {
+		.header .menu {
+        padding: 20px;
+	}
+
+.header {
+	min-height: ovh;
+	padding: 100px 30px;
+	.menu {
+		label {
+			display: initial;
+		}
+		.navbar {
+			position: absolute;
+			top: 100%;
+			left: 0;
+			right: 0;
+			background-color: #e6b01d;
+			display: none;
+			ul {
+				li {
+					width: 100%;
+					a {
+						&:hover {
+							color: #191a1f;
+						}
+					}
+				}
+			}
+		}
+	}
+	.header-content {
+		.header-txt {
+			text-align: center;
+			padding: 0;
+		}
+	}
+}
+#menu {
+	&:checked {
+		& ~ .navbar {
+			display: initial;
+		}
+	}
+}
+.about {
+	padding: 30px;
+	.about-content {
+		flex-direction: column;
+	}
+}
+.testimonial {
+	padding: 30px;
+	.testimonial-content {
+		flex-direction: column;
+		.testimonial-1 {
+			margin-bottom: 30px;
+		}
+	}
+}
+.blog {
+	padding: 30px;
+	.blog-content {
+		flex-direction: column;
+		.blog-1 {
+			margin-top: 30px;
+		}
+	}
+}
+.plans {
+	padding: 30px;
+	.plans-content {
+		flex-direction: column;
+		margin-top: 5px;
+		.plan-1 {
+			margin-bottom: 30px;
+		}
+	}
+}
+.information {
+	padding: 30px;
+	.information-content {
+		flex-direction: column;
+		.information-txt {
+			order: -2;
+			padding: 0;
+			margin: 30px 0;
+		}
+	}
+}
+.contact {
+	padding: 100px 30px;
+}
+.footer {
+	padding: 30px;
+	.footer-content {
+		flex-direction: column;
+		text-align: center;
+	}
+}
+}
