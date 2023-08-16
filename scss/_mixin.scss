@@ -1,0 +1,11 @@
+@mixin btn {
+	display: inline-block;
+	padding: 11px 35px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	background: linear-gradient(
+        90deg,
+        rgb(245, 171, 33) 0%,
+        rgb(254, 184, 32) 100%
+    );
+}
