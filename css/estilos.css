@@ -171,7 +171,7 @@
   text-align: center;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
-.plans .plans-content .plan-1 span {
+.plans .plans-content .plan-1 .span {
   font-size: 40px;
   font-weight: 800;
   color: #FFFFFF;
@@ -238,17 +238,22 @@
   display: flex;
   justify-content: space-between;
 }
-.footer .footer-content .link h3 {
+.footer .footer-content h3 {
   font-size: 17px;
   color: #FFFFFF;
   margin-bottom: 10px;
   text-transform: uppercase;
+}
+.footer .footer-content .link ul {
+  display: flex;
+  justify-content: space-between;
 }
 .footer .footer-content .link a {
   font-size: 17px;
   color: #d4d4d4;
   display: block;
   margin-bottom: 10px;
+  margin-right: 10px;
 }
 .footer .footer-content .link a:hover {
   color: #e6b01d;
@@ -377,7 +382,7 @@ p {
   background: linear-gradient(90deg, rgb(245, 171, 33) 0%, rgb(254, 184, 32) 100%);
 }
 
-span {
+.span {
   font-size: 14px;
   text-transform: uppercase;
   color: #e6b01d;

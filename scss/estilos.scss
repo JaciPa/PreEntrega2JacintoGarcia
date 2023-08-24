@@ -34,7 +34,7 @@ p {
 .btn-1 {
 	@include btn;
 }
-span {
+.span {
 	font-size: 14px;
 	text-transform: uppercase;
 	color: $color-tit;

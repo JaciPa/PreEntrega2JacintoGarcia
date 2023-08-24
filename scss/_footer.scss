@@ -5,18 +5,23 @@
 	.footer-content {
 		display: flex;
 		justify-content: space-between;
+		h3 {
+			font-size: 17px;
+			color: #FFFFFF;
+			margin-bottom: 10px;
+			text-transform: uppercase;
+		}
 		.link {
-			h3 {
-				font-size: 17px;
-				color: #FFFFFF;
-				margin-bottom: 10px;
-				text-transform: uppercase;
+			ul {
+				display: flex;
+				justify-content: space-between;
 			}
 			a {
 				font-size: 17px;
 				color: #d4d4d4;
 				display: block;
 				margin-bottom: 10px;
+				margin-right: 10px;
 				&:hover {
 					color: #e6b01d;
 				}
